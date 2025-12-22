@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Messé – Commande de Tricycles</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#FFC700',
+            dark: '#0B0B0B',
+            dark2: '#1E1E1E'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-dark text-white">
+
+<!-- HEADER -->
+<header class="flex justify-between items-center px-6 py-4 bg-dark2">
+  <h1 class="text-primary text-2xl font-bold">Messé</h1>
+  <nav class="hidden md:flex gap-6">
+    <a href="#" class="hover:text-primary">Accueil</a>
+    <a href="#" class="hover:text-primary">Commander</a>
+    <a href="#" class="hover:text-primary">Messé Pay</a>
+    <a href="#" class="hover:text-primary">Chauffeur</a>
+    <a href="#" class="hover:text-primary">À propos</a>
+  </nav>
+  <button class="bg-primary text-black px-4 py-2 rounded-xl">Connexion</button>
+</header>
+
+<!-- HERO -->
+<section class="text-center py-20 px-6">
+  <h2 class="text-4xl md:text-5xl font-bold mb-4">
+    Commandez votre <span class="text-primary">tricycle</span> facilement
+  </h2>
+  <p class="text-gray-300 mb-8">Rapide • Sécurisé • Disponible dans votre ville</p>
+  <div class="flex justify-center gap-4 flex-wrap">
+    <button class="bg-primary text-black px-6 py-3 rounded-xl">Commander une course</button>
+    <button class="border border-primary text-primary px-6 py-3 rounded-xl">Devenir chauffeur</button>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="grid md:grid-cols-4 gap-6 px-6 pb-20">
+  <div class="bg-dark2 p-6 rounded-xl text-center">🚲<br/>Réservation rapide</div>
+  <div class="bg-dark2 p-6 rounded-xl text-center">✅<br/>Chauffeurs vérifiés</div>
+  <div class="bg-dark2 p-6 rounded-xl text-center">💳<br/>Messé Pay</div>
+  <div class="bg-dark2 p-6 rounded-xl text-center">🌍<br/>Multi-villes</div>
+</section>
+
+<!-- COMMANDER -->
+<section class="bg-dark2 p-10 mx-6 rounded-xl mb-20">
+  <h3 class="text-2xl font-bold mb-6">Commander une course</h3>
+  <div class="grid md:grid-cols-2 gap-4">
+    <input class="p-3 rounded bg-dark text-white" placeholder="Ville" />
+    <input class="p-3 rounded bg-dark text-white" placeholder="Point de départ" />
+    <input class="p-3 rounded bg-dark text-white" placeholder="Destination" />
+    <input type="datetime-local" class="p-3 rounded bg-dark text-white" />
+  </div>
+  <button class="mt-6 bg-primary text-black px-6 py-3 rounded-xl">Valider la demande</button>
+</section>
+
+<!-- MESSÉ PAY -->
+<section class="px-6 mb-20">
+  <h3 class="text-2xl font-bold mb-6">Messé Pay – E‑Ticket</h3>
+  <div class="grid md:grid-cols-3 gap-6">
+    <div class="bg-dark2 p-6 rounded-xl">Achat de ticket</div>
+    <div class="bg-dark2 p-6 rounded-xl">QR Code</div>
+    <div class="bg-dark2 p-6 rounded-xl">Historique</div>
+  </div>
+</section>
+
+<!-- PARTENAIRES -->
+<section class="bg-dark2 py-12">
+  <h3 class="text-center text-2xl font-bold mb-8">Nos partenaires</h3>
+  <div class="flex justify-center gap-6 flex-wrap">
+    <div class="bg-dark p-6 rounded-xl">Partenaire 1</div>
+    <div class="bg-dark p-6 rounded-xl">Partenaire 2</div>
+    <div class="bg-dark p-6 rounded-xl">Partenaire 3</div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="text-center py-6 text-gray-400">
+  © 2025 Messé – Tous droits réservés
+</footer>
+
+</body>
+</html>

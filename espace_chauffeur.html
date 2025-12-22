@@ -1,0 +1,138 @@
+<section class="min-h-screen bg-dark text-white flex">
+
+  <!-- SIDEBAR -->
+  <aside class="w-64 bg-dark2 p-6 hidden md:block">
+    <h2 class="text-primary text-2xl font-bold mb-10">Messé</h2>
+
+    <nav class="space-y-6 text-gray-300">
+      <a class="flex items-center gap-3 text-primary font-semibold">
+        <img src="https://cdn-icons-png.flaticon.com/512/1828/1828673.png" class="w-6">
+        Tableau de bord
+      </a>
+      <a class="flex items-center gap-3 hover:text-primary">
+        <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" class="w-6">
+        Mes trajets
+      </a>
+      <a class="flex items-center gap-3 hover:text-primary">
+        <img src="https://cdn-icons-png.flaticon.com/512/1828/1828640.png" class="w-6">
+        Disponibilités
+      </a>
+      <a class="flex items-center gap-3 hover:text-primary">
+        <img src="https://cdn-icons-png.flaticon.com/512/833/833314.png" class="w-6">
+        Historique
+      </a>
+      <a class="flex items-center gap-3 hover:text-primary">
+        <img src="https://cdn-icons-png.flaticon.com/512/2331/2331941.png" class="w-6">
+        Revenus
+      </a>
+    </nav>
+  </aside>
+
+  <!-- CONTENU -->
+  <main class="flex-1 p-6 md:p-10">
+
+    <!-- HEADER -->
+    <div class="flex justify-between items-center mb-10">
+      <h3 class="text-3xl font-bold">Espace Chauffeur</h3>
+      <span class="bg-green-600 px-4 py-2 rounded-xl text-sm font-semibold">
+        Disponible
+      </span>
+    </div>
+
+    <!-- STATISTIQUES -->
+    <div class="grid md:grid-cols-4 gap-6 mb-14">
+
+      <div class="bg-dark2 p-6 rounded-3xl shadow-lg hover:scale-105 transition">
+        <img src="https://cdn-icons-png.flaticon.com/512/854/854878.png" class="w-12 mb-4">
+        <h4 class="text-2xl font-bold">12</h4>
+        <p class="text-gray-400">Trajets aujourd’hui</p>
+      </div>
+
+      <div class="bg-dark2 p-6 rounded-3xl shadow-lg hover:scale-105 transition">
+        <img src="https://cdn-icons-png.flaticon.com/512/1828/1828640.png" class="w-12 mb-4">
+        <h4 class="text-2xl font-bold">8h</h4>
+        <p class="text-gray-400">Disponibilité</p>
+      </div>
+
+      <div class="bg-dark2 p-6 rounded-3xl shadow-lg hover:scale-105 transition">
+        <img src="https://cdn-icons-png.flaticon.com/512/1048/1048314.png" class="w-12 mb-4">
+        <h4 class="text-2xl font-bold">154</h4>
+        <p class="text-gray-400">Courses</p>
+      </div>
+
+      <div class="bg-dark2 p-6 rounded-3xl shadow-lg hover:scale-105 transition">
+        <img src="https://cdn-icons-png.flaticon.com/512/2331/2331941.png" class="w-12 mb-4">
+        <h4 class="text-2xl font-bold text-primary">125 000 FCFA</h4>
+        <p class="text-gray-400">Revenus mensuels</p>
+      </div>
+    </div>
+
+    <!-- GESTION DES TRAJETS -->
+    <div class="bg-dark2 p-8 rounded-3xl mb-12">
+      <div class="flex items-center gap-4 mb-6">
+        <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" class="w-10">
+        <h4 class="text-2xl font-bold">Gestion des trajets</h4>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-6">
+        <input class="p-4 rounded-xl bg-dark border border-gray-700" placeholder="Point de départ">
+        <input class="p-4 rounded-xl bg-dark border border-gray-700" placeholder="Destination">
+        <button class="md:col-span-2 bg-primary text-black py-4 rounded-2xl font-bold hover:scale-105 transition">
+          Démarrer un trajet
+        </button>
+      </div>
+    </div>
+
+    <!-- DISPONIBILITÉS -->
+    <div class="bg-dark2 p-8 rounded-3xl mb-12">
+      <div class="flex items-center gap-4 mb-6">
+        <img src="https://cdn-icons-png.flaticon.com/512/1828/1828640.png" class="w-10">
+        <h4 class="text-2xl font-bold">Disponibilités</h4>
+      </div>
+
+      <select class="bg-dark p-4 rounded-xl w-full md:w-1/3">
+        <option>Disponible</option>
+        <option>Indisponible</option>
+      </select>
+    </div>
+
+    <!-- HISTORIQUE -->
+    <div class="bg-dark2 p-8 rounded-3xl mb-12">
+      <div class="flex items-center gap-4 mb-6">
+        <img src="https://cdn-icons-png.flaticon.com/512/833/833314.png" class="w-10">
+        <h4 class="text-2xl font-bold">Historique des courses</h4>
+      </div>
+
+      <ul class="space-y-4 text-gray-300">
+        <li class="flex justify-between border-b border-gray-700 pb-3">
+          <span>Abidjan → Cocody</span><span>3 000 FCFA</span>
+        </li>
+        <li class="flex justify-between border-b border-gray-700 pb-3">
+          <span>Yopougon → Plateau</span><span>4 500 FCFA</span>
+        </li>
+        <li class="flex justify-between">
+          <span>Marcory → Treichville</span><span>2 500 FCFA</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- REVENUS -->
+    <div class="bg-dark2 p-8 rounded-3xl">
+      <div class="flex items-center gap-4 mb-6">
+        <img src="https://cdn-icons-png.flaticon.com/512/2331/2331941.png" class="w-10">
+        <h4 class="text-2xl font-bold">Revenus & Paiements</h4>
+      </div>
+
+      <div class="flex justify-between items-center">
+        <div>
+          <p class="text-gray-400">Solde disponible</p>
+          <p class="text-3xl font-bold text-primary">45 000 FCFA</p>
+        </div>
+        <button class="bg-primary text-black px-8 py-4 rounded-2xl font-bold hover:scale-105 transition">
+          Retirer
+        </button>
+      </div>
+    </div>
+
+  </main>
+</section>
