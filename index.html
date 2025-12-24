@@ -23,7 +23,16 @@
 
 <!-- HEADER -->
 <header class="flex justify-between items-center px-6 py-4 bg-dark2">
-  <h1 class="text-primary text-2xl font-bold">Messé</h1>
+  <!-- Logo -->
+  <div class="flex items-center">
+    <img 
+      src="image/LOGO-removebg.png" 
+      alt="Logo Messé Pay"
+      class="h-20 md:h-30 object-contain"
+    >
+  </div>
+
+  <!-- Navigation -->
   <nav class="hidden md:flex gap-6">
     <a href="#" class="hover:text-primary">Accueil</a>
     <a href="#" class="hover:text-primary">Commander</a>
@@ -31,8 +40,13 @@
     <a href="#" class="hover:text-primary">Chauffeur</a>
     <a href="#" class="hover:text-primary">À propos</a>
   </nav>
-  <button class="bg-primary text-black px-4 py-2 rounded-xl">Connexion</button>
+
+  <!-- Bouton -->
+  <button class="bg-primary text-black px-4 py-2 rounded-xl">
+    Connexion
+  </button>
 </header>
+
 
 <!-- HERO -->
 <section id="hero" class="relative py-32 px-6 overflow-hidden">
@@ -51,17 +65,26 @@
       </div>
     </div>
     <div class="hidden md:block">
-      <img src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7" alt="Transport urbain" class="rounded-3xl shadow-2xl" />
+      <img src="image/WhatsApp Image 2025-12-21 at 22.24.3z2.jpeg" alt="Transport urbain" class="rounded-3xl shadow-2xl" />
     </div>
   </div>
 </section>
+
+<main class="mx-auto max-w-6xl p-4 md:p-8"> <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 items-stretch"> <!-- Visuel (remplacez l'URL par votre image) --> <section class="relative w-full h-[360px] md:h-[520px] rounded-2xl overflow-hidden shadow-2xl" > <img src="image/WhatsApp Image 2025-12-22 at 00.08.36.jpeg" alt="Femme souriante à l'arrière d'une voiture" class="absolute inset-0 w-full h-full object-cover" /> <!-- Teinte rouge vibrante --> <div class="absolute inset-0 bg-[rgba(220,38,38,0.45)] mix-blend-multiply"></div> <!-- Lueur subtile --> <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-black/20"></div> <!-- Accent lumineux --> <div class="absolute -right-20 -bottom-20 w-72 h-72 bg-red-500/40 blur-3xl rounded-full pointer-events-none"></div> <!-- Micro-cadre évoquant l’intérieur de voiture --> <div class="absolute top-0 left-0 right-0 h-3 bg-black/30"></div> <div class="absolute bottom-0 left-0 right-0 h-3 bg-black/30"></div> </section> <!-- Bloc contenu --> <section class="bg-white rounded-2xl p-6 md:p-8 shadow-xl"> <h1 class="text-2xl md:text-3xl font-semibold text-neutral-900"> Roulez en toute sécurité </h1> <div class="mt-6 space-y-6"> <!-- Partage d’itinéraire --> <div class="flex items-start gap-4"> <span class="flex-shrink-0 inline-flex h-10 w-10 items-center justify-center rounded-full bg-red-100 text-red-600"> <!-- Icône de localisation --> <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 11.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm0 0c-4.5 0-7.5 2.25-7.5 5v1.5h15V16.5c0-2.75-3-5-7.5-5Z"/> </svg> </span> <div> <p class="font-medium text-neutral-900">Partage d’itinéraire</p> <p class="text-neutral-600"> Envoyez votre position afin que vos amis et vos proches puissent suivre votre trajet en temps réel. </p> </div> </div> <!-- Assistance 24/7 --> <div class="flex items-start gap-4"> <span class="flex-shrink-0 inline-flex h-10 w-10 items-center justify-center rounded-full bg-red-100 text-red-600"> <!-- Icône assistance --> <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 3v3m0 12v3m9-9h-3M6 12H3m14.95 5.95-2.12-2.12M7.17 7.17 5.05 5.05m12.02 0-2.12 2.12M7.17 16.83l-2.12 2.12"/> </svg> </span> <div> <p class="font-medium text-neutral-900">Assistance 24/7</p> <p class="text-neutral-600"> Si vous avez des questions ou des problèmes, vous pouvez contacter l’assistance en ligne de l’appli. </p> </div> </div> <!-- Bouton SOS --> <div class="flex items-start gap-4"> <span class="flex-shrink-0 inline-flex h-10 w-10 items-center justify-center rounded-full bg-red-100 text-red-600"> <!-- Icône SOS --> <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12h6M5 7h14M7 17h10"/> </svg> </span> <div> <p class="font-medium text-neutral-900">Bouton SOS</p> <p class="text-neutral-600"> Un bouton d’urgence facile d’accès dans l’appli pour contacter les services d’urgence au 111. </p> </div> </div> <!-- Conducteurs vérifiés --> <div class="flex items-start gap-4"> <span class="flex-shrink-0 inline-flex h-10 w-10 items-center justify-center rounded-full bg-red-100 text-red-600"> <!-- Icône check --> <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 13l4 4L19 7M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20Z"/> </svg> </span> <div> <p class="font-medium text-neutral-900">Conducteurs vérifiés</p> <p class="text-neutral-600"> Les conducteurs sont soumis à un contrôle rigoureux avant de commencer à conduire. </p> </div> </div> </div> <!-- Barre d’action simulée --> <div class="mt-8 flex items-center gap-3"> <button class="px-4 py-2 rounded-lg bg-red-600 text-white font-medium hover:bg-red-700 transition"> Ouvrir l’appli </button> <span class="text-sm text-neutral-500">Votre sécurité, notre priorité</span> </div> </section> </div> </main>
+
+
+
+
+
+
+
 
 <!-- FEATURES -->
 <section id="features" class="px-6 pb-32">
   <h3 class="text-3xl font-bold text-center mb-12">Pourquoi choisir Messé ?</h3>
   <div class="grid md:grid-cols-4 gap-6">
     <div class="bg-dark2 p-8 rounded-2xl text-center hover:scale-105 transition shadow-lg">
-      <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70" class="h-32 w-full object-cover rounded-xl mb-4" />
+      <img src="image/WhatsApp Image 2025-12-22 at 00.08.29.jpeg" class="h-32 w-full object-cover rounded-xl mb-4" />
       <h4 class="font-bold mb-2">Rapide</h4>
       <p class="text-gray-400">Commandez une course en quelques secondes.</p>
     </div>
@@ -87,7 +110,7 @@
 <section id="commande" class="relative bg-gradient-to-r from-dark2 via-dark to-dark2 p-12 mx-6 rounded-3xl mb-32 shadow-2xl">
   <div class="grid md:grid-cols-2 gap-12 items-center">
     <div>
-      <img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957" class="rounded-3xl shadow-xl" />
+      <img src="image/WhatsApp Image 2025-12-22 at 00.08.30.jpeg" class="rounded-3xl shadow-xl" />
     </div>
     <div>
       <h3 class="text-3xl font-bold mb-4">Commander une course</h3>
@@ -124,76 +147,7 @@
 </section>
 
 <!-- DEVENIR CHAUFFEUR -->
-<section id="devenir-chauffeur" class="px-6 mb-32">
-  <div class="max-w-5xl mx-auto bg-dark2 rounded-3xl shadow-2xl p-8 md:p-12">
-    <h3 class="text-3xl font-bold mb-2 text-center">Devenir Chauffeur Messé</h3>
-    <p class="text-gray-400 text-center mb-10">
-      Rejoignez Messé et augmentez vos revenus avec votre tricycle.
-    </p>
-
-    <form id="chauffeurForm" class="grid md:grid-cols-2 gap-6">
-
-      <!-- Nom -->
-      <div>
-        <label class="text-sm text-gray-300">Nom</label>
-        <input id="nom" type="text"
-          class="w-full mt-1 p-4 rounded-xl bg-dark border border-gray-700 focus:border-primary focus:ring-primary"
-          required>
-      </div>
-
-      <!-- Prénom -->
-      <div>
-        <label class="text-sm text-gray-300">Prénom</label>
-        <input id="prenom" type="text"
-          class="w-full mt-1 p-4 rounded-xl bg-dark border border-gray-700 focus:border-primary focus:ring-primary"
-          required>
-      </div>
-
-      <!-- Téléphone -->
-      <div>
-        <label class="text-sm text-gray-300">Téléphone</label>
-        <input type="tel"
-          class="w-full mt-1 p-4 rounded-xl bg-dark border border-gray-700"
-          placeholder="+225 00 00 00 00" required>
-      </div>
-
-      <!-- Email -->
-      <div>
-        <label class="text-sm text-gray-300">Email</label>
-        <input type="email"
-          class="w-full mt-1 p-4 rounded-xl bg-dark border border-gray-700" required>
-      </div>
-
-      <!-- Adresse -->
-      <div class="md:col-span-2">
-        <label class="text-sm text-gray-300">Adresse</label>
-        <textarea rows="3"
-          class="w-full mt-1 p-4 rounded-xl bg-dark border border-gray-700" required></textarea>
-      </div>
-
-      <!-- Documents -->
-      <div class="md:col-span-2 border border-dashed border-gray-600 rounded-2xl p-6">
-        <h4 class="font-semibold mb-4">📄 Documents requis</h4>
-
-        <div class="grid md:grid-cols-3 gap-4">
-          <input id="permis" type="file" class="p-3 bg-dark rounded-xl" required>
-          <input id="photo" type="file" class="p-3 bg-dark rounded-xl" required>
-          <input id="carteGrise" type="file" class="p-3 bg-dark rounded-xl" required>
-        </div>
-      </div>
-
-      <!-- Bouton -->
-      <div class="md:col-span-2">
-        <button type="submit"
-          class="w-full bg-primary text-black font-bold py-4 rounded-2xl hover:scale-105 transition">
-          Soumettre l’inscription
-        </button>
-        <p id="errorMsg" class="text-red-500 text-sm text-center mt-3"></p>
-      </div>
-
-    </form>
-  </div>
-</section>
+<!--  -->
 
 
 <!-- COMMENT ÇA MARCHE -->
@@ -209,100 +163,49 @@
 
 
 
-<section class="px-6 mb-32">
-  <div class="max-w-5xl mx-auto bg-white rounded-3xl shadow-2xl p-6 md:p-10">
+<section class="w-full bg-white py-16">
+  <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
 
-    <!-- Titre -->
-    <h3 class="text-2xl md:text-3xl font-bold text-center mb-2">
-      📄 Documents du chauffeur
-    </h3>
-    <p class="text-center text-gray-500 mb-10">
-      Veuillez fournir les documents nécessaires pour valider votre inscription.
-    </p>
+    <!-- Texte -->
+    <div>
+      <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">
+        Commandez vos tricycle directement<br>
+        via l'appli Messe
+      </h2>
 
-    <form class="grid md:grid-cols-2 gap-8">
+      <p class="text-gray-600 mb-8 max-w-md">
+        Profitez de la livraison rapide de repas provenant de restaurants
+        et d'épiceries. Et obtenez 2150 FCFA de réduction et la livraison
+        gratuite sur votre première commande !
+      </p>
 
-      <!-- Colonne gauche : Illustration -->
-      <div class="hidden md:flex items-center justify-center">
-        <img
-          src="https://images.unsplash.com/photo-1603575448365-9b3e6e6c9f77"
-          alt="Documents chauffeur"
-          class="rounded-2xl shadow-lg object-cover h-full"
-        />
+      <!-- QR + texte -->
+      <div class="flex items-center gap-4">
+        <img src="image/QRcode.png" alt="QR Code messe" class="w-20 h-20">
+        <p class="font-semibold text-black">
+          Téléchargez<br>l'appli MESSE
+        </p>
       </div>
+    </div>
 
-      <!-- Colonne droite : Formulaire -->
-      <div class="grid grid-cols-1 gap-6">
+    <!-- Image -->
+    <div class="relative">
+      <img
+        src="image/WhatsApp Image 2025-12-22 at 00.08.28.jpeg"
+        alt="Repas messe"
+        class="w-full rounded-2xl object-cover"
+      >
 
-        <!-- Email -->
-        <div>
-          <label class="block text-sm font-medium text-gray-700">Email</label>
-          <input type="email"
-            class="mt-1 w-full rounded-xl border-gray-300 focus:ring-2 focus:ring-blue-500 p-3"
-            required />
-        </div>
-
-        <!-- Adresse -->
-        <div>
-          <label class="block text-sm font-medium text-gray-700">Adresse</label>
-          <textarea rows="3"
-            class="mt-1 w-full rounded-xl border-gray-300 focus:ring-2 focus:ring-blue-500 p-3"
-            required></textarea>
-        </div>
-
-        <!-- Documents -->
-        <div class="bg-gray-50 border border-dashed border-gray-300 rounded-2xl p-6">
-          <h4 class="text-lg font-semibold text-gray-800 mb-6">
-            📂 Téléversement des documents
-          </h4>
-
-          <div class="grid grid-cols-1 gap-5">
-
-            <!-- Permis -->
-            <div class="flex items-center gap-4">
-              <img src="https://cdn-icons-png.flaticon.com/512/2991/2991108.png"
-                   class="w-12 h-12" />
-              <input type="file"
-                class="block w-full text-sm file:mr-4 file:py-2 file:px-4
-                file:rounded-lg file:border-0 file:bg-blue-50 file:text-blue-700
-                hover:file:bg-blue-100"
-                required />
-            </div>
-
-            <!-- Photo -->
-            <div class="flex items-center gap-4">
-              <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
-                   class="w-12 h-12" />
-              <input type="file"
-                class="block w-full text-sm file:mr-4 file:py-2 file:px-4
-                file:rounded-lg file:border-0 file:bg-green-50 file:text-green-700
-                hover:file:bg-green-100"
-                required />
-            </div>
-
-            <!-- Carte grise -->
-            <div class="flex items-center gap-4">
-              <img src="https://cdn-icons-png.flaticon.com/512/942/942748.png"
-                   class="w-12 h-12" />
-              <input type="file"
-                class="block w-full text-sm file:mr-4 file:py-2 file:px-4
-                file:rounded-lg file:border-0 file:bg-purple-50 file:text-purple-700
-                hover:file:bg-purple-100"
-                required />
-            </div>
-
-          </div>
-        </div>
-
-        <!-- Bouton -->
-        <button type="submit"
-          class="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 rounded-2xl transition">
-          Soumettre l'inscription
-        </button>
-
-        <p id="errorMsg" class="text-red-600 text-sm text-center"></p>
+      <!-- Badge promo -->
+      <div class="absolute top-6 right-6 bg-yellow-400 text-black font-bold px-4 py-2 rounded-lg shadow-lg text-sm md:text-base">
+       500 FCFA de réduction<br>
+        + livraison gratuite<br>
+        <span class="font-normal text-xs">
+          sur votre première commande
+        </span>
       </div>
-    </form>
+    </div>
+
   </div>
 </section>
 
@@ -341,20 +244,87 @@
 </section>
 
 
-  
+ <section class="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
 
+  <!-- Texte / FAQ -->
+  <div>
+    <h2 class="text-3xl md:text-4xl font-bold mb-6">
+      Qui sommes-nous ?
+    </h2>
 
+    <p class="text-gray-600 mb-8">
+      messe Ride est un service de commande de courses, membre du groupe messe,
+      une entreprise technologique mondiale qui met en relation les utilisateurs
+      avec des prestataires de transport locaux.
+    </p>
 
-<!-- UPLOAD DOCUMENTS CHAUFFEUR -->
-<section id="documents" class="bg-dark2 p-12 mx-6 rounded-2xl mb-24">
-  <h3 class="text-3xl font-bold mb-6">Documents Chauffeur</h3>
-  <div class="grid md:grid-cols-3 gap-6">
-    <input type="file" class="p-4 bg-dark rounded-xl" />
-    <input type="file" class="p-4 bg-dark rounded-xl" />
-    <input type="file" class="p-4 bg-dark rounded-xl" />
+    <!-- Accordion -->
+    <div class="space-y-4">
+
+      <!-- Item -->
+      <div class="border-b pb-3">
+        <button
+          class="w-full flex justify-between items-center font-semibold text-left text-lg toggle-btn"
+        >
+          <span>6 ans</span>
+          <span class="text-primary text-xl">+</span>
+        </button>
+        <div class="hidden mt-2 text-gray-600">
+          Depuis le lancement de messe.
+        </div>
+      </div>
+
+      <!-- Item -->
+      <div class="border-b pb-3">
+        <button class="w-full flex justify-between items-center font-semibold text-left text-lg toggle-btn">
+          <span>Plus de 25 pays</span>
+          <span class="text-primary text-xl">+</span>
+        </button>
+        <div class="hidden mt-2 text-gray-600">
+          Nous sommes à vos côtés, où que vous vous trouviez.
+        </div>
+      </div>
+
+      <!-- Item -->
+      <div class="border-b pb-3">
+        <button class="w-full flex justify-between items-center font-semibold text-left text-lg toggle-btn">
+          <span>Environ 630 millions de courses</span>
+          <span class="text-primary text-xl">+</span>
+        </button>
+        <div class="hidden mt-2 text-gray-600">
+          Ont été effectuées par les utilisateurs de messe depuis son lancement.
+        </div>
+      </div>
+
+      <!-- Item -->
+      <div class="border-b pb-3">
+        <button class="w-full flex justify-between items-center font-semibold text-left text-lg toggle-btn">
+          <span>Plus de 1 million de conducteurs</span>
+          <span class="text-primary text-xl">+</span>
+        </button>
+        <div class="hidden mt-2 text-gray-600">
+          Inscrits sur la plateforme messe.
+        </div>
+      </div>
+
+    </div>
   </div>
-  <p class="text-gray-400 mt-4">Permis • Photo • Carte du tricycle</p>
+
+  <!-- Image -->
+  <div>
+    <img
+      src="image/WhatsApp Image 2025-12-22 at 00.08.38.jpeg"
+      alt="messe"
+      class="w-full rounded-2xl object-cover"
+    >
+  </div>
+
 </section>
+ 
+
+
+
+
 
 <!-- PARTENAIRES -->
 <section id="partenaires" class="bg-dark2 py-20">
@@ -368,6 +338,19 @@
 
 
 <script>
+
+ document.querySelectorAll('.toggle-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const content = btn.nextElementSibling;
+      const icon = btn.querySelector('span:last-child');
+
+      content.classList.toggle('hidden');
+      icon.textContent = content.classList.contains('hidden') ? '+' : '−';
+    });
+  });
+
+
+
 document.getElementById('chauffeurForm').addEventListener('submit', function(e) {
   e.preventDefault();
 
@@ -392,12 +375,66 @@ document.getElementById('chauffeurForm').addEventListener('submit', function(e) 
 
   alert('🚀 Inscription chauffeur envoyée avec succès !');
 });
-</script>
 
+
+
+
+</script>
+<hr>
 <!-- FOOTER -->
-<footer class="text-center py-6 text-gray-400">
-  © 2025 Messé – Tous droits réservés
+<footer class="bg-dark2 text-gray-300 pt-20">
+  <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10">
+
+    <!-- Logo & description -->
+    <div>
+      <img src="image/LOGO.jpeg" alt="Logo" class="h-20 mb-4">
+      <p class="text-sm leading-relaxed">
+        messe est une plateforme technologique reliant les utilisateurs
+        à des services de transport, de livraison et de commande rapide.
+      </p>
+    </div>
+
+    <!-- Liens rapides -->
+    <div>
+      <h3 class="text-white font-semibold mb-4">Liens rapides</h3>
+      <ul class="space-y-2 text-sm">
+        <li><a href="#" class="hover:text-primary">Accueil</a></li>
+        <li><a href="#" class="hover:text-primary">Commander</a></li>
+        <li><a href="#" class="hover:text-primary">Messé Pay</a></li>
+        <li><a href="#" class="hover:text-primary">Chauffeur</a></li>
+        <li><a href="#" class="hover:text-primary">À propos</a></li>
+      </ul>
+    </div>
+
+    <!-- Services -->
+    <div>
+      <h3 class="text-white font-semibold mb-4">Services</h3>
+      <ul class="space-y-2 text-sm">
+        <li>Transport</li>
+        <li>Livraison de repas</li>
+        <li>Courses & épicerie</li>
+        <li>Paiement numérique</li>
+      </ul>
+    </div>
+
+    <!-- Réseaux sociaux -->
+    <div>
+      <h3 class="text-white font-semibold mb-4">Suivez-nous</h3>
+      <div class="flex gap-4">
+        <a href="#" class="hover:text-primary">Facebook</a>
+        <a href="#" class="hover:text-primary">Instagram</a>
+        <a href="#" class="hover:text-primary">Twitter</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Bas de footer -->
+  <div class="border-t border-gray-700 mt-12 py-6 text-center text-sm text-gray-400">
+    © 2025 messe. Tous droits réservés.
+  </div>
 </footer>
+
 
 </body>
 </html>
